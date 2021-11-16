@@ -1,2 +1,2 @@
-# Practice
+# Python
 Data science practice
