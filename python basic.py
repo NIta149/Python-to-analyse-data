@@ -41,3 +41,23 @@ list = values.split(",")
 tuple = tuple(list)
 print('List : ',list)
 print('Tuple : ',tuple)
+
+
+Write a Python program to accept a filename from the user and print the extension of that. 
+Sample filename : abc.java
+Output : java
+
+filename = input("Input the Filename: ")
+f_extns = filename.split(".")
+print ("The extension of the file is : " + repr(f_extns[-1]))
+
+Write a Python program that accepts an integer (n) and computes the value of n+nn+nnn. 
+Sample value of n is 5
+Expected Result : 615
+a = int(input("Input an integer : "))
+n1 = int( "%s" % a )
+n2 = int( "%s%s" % (a,a) )
+n3 = int( "%s%s%s" % (a,a,a) )
+print (n1+n2+n3)
+
+
