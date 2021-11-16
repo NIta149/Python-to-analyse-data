@@ -1,0 +1,52 @@
+#If condition 
+
+a =100
+b = 100
+if a>b:
+    print (a,'Greater than ', b)
+elif b>a:
+    print (b,'Greater than',a)
+else:
+    print (a,'and ',b ,'are equal')
+
+
+#If condition Between 
+
+a =300
+if a <100:
+    print (a,'Less than 100')
+elif (100<= a <=200):
+    print (a,'is between 100 and 200')
+else:
+    print (a,'Greater than 200')
+
+
+#While loop
+a =1
+while a <5:
+    print ( 'The number is ',a)
+    a+=1
+print ('Program end')
+
+for i in range (10):
+    print (str(i)*i)
+    print ('Good Day')
+
+#Example 2 
+A =  ['Pen','Pencil','Book','Toy']
+B = ['School', 'College']
+for i in A:
+    print (i)
+    for j in B:
+        print('   ',j)
+        
+#Input Parameter 
+
+no1 = input ('Enter the value')
+no2 = input ('Enter the value')
+print ('Data type of no1 ',type (no1))
+no3 = int(no1)+ int (no2)
+print (no3)
+
+
+
