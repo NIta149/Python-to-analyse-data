@@ -61,3 +61,13 @@ n3 = int( "%s%s%s" % (a,a,a) )
 print (n1+n2+n3)
 
 
+10. Write a Python program to convert seconds to day, hour, minutes and seconds.  
+time = float(input("Input time in seconds: "))
+day = time // (24 * 3600)
+time = time % (24 * 3600)
+hour = time // 3600
+time %= 3600
+minutes = time // 60
+time %= 60
+seconds = time
+print("d:h:m:s-> %d days :%d hours:%d minutes:%d seconds" % (day, hour, minutes, seconds))
